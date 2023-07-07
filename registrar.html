@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="shortcut icon" href="./img/11zon_cropped.png">
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+</style>
+
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar</title>
+    <link rel="stylesheet" href="./registrar.css">
+</head>
+
+<body>
+    <br>
+    <form action="login_registrar.php" method="POST">
+        <div class="modal-conteiner">
+            <div class="modal modal-close">
+                <br>
+                <h3> REGISTRARSE. </h3>
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRUglxR_uXgGJDSiJGp2HiTEs1czv7-8XcywjEFb_g-V3_fdoSv" alt="profile">
+                <section class="form-register">
+                    <span class="campo__label"> Usuario: </span>
+                    <input type="text" class="campo__field" placeholder="🦲 Ingrese su Nombre de Usuario" name="usuario" required>
+                    <br>
+                    <br>
+                    <span class="campo__label"> Contraseña: </span>
+                    <input type="password" class="campo__field" placeholder="🔐 Ingrese su Contraseña" name="pass" required>
+                    <br>
+                    <br>
+                    <input type="submit" value="Registrar" name="btnregistrar" class="regist">
+                    <br>
+                    <button type="button" onclick="window.location.href='./login.html'" value="Regresar" class="regres" name="btnregresar"> Regresar </button>
+                </section>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

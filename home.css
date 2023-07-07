@@ -1,0 +1,360 @@
+/* NAVBAR BARRA DE NAVEGACIÓN */
+
+body {
+    /* font-family: 'Zen Loop', cursive; */
+    background: #fff;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+a {
+    font-family: 'Balsamiq Sans', cursive;
+    color: #fff;
+}
+
+.navbar-brand {
+    color: #bdbdbd;
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.btn-outline-danger {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.btn-outline-success {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+/* CARROUSEL */
+
+h5 {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 15px;
+    color: #fff;
+}
+
+.carousel-control-prev-icon {
+    color: #fff;
+}
+
+
+/* FOOTER */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+/* PIE DE PAGINA */
+
+.pie-pagina {
+    width: 100%;
+    background-color: #000;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 250px;
+    border: 6px solid #00a98a;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pie-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #00a98a;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    color: #372e83;
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #00a98a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small {
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+
+/* FOOTER SOLO */
+
+.f-container {
+    background-color: #000;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+}
+
+.a {
+    color: #A60311;
+    text-align: center;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+}
+
+
+/* PARALLAX */
+
+
+/* UGG SITE */
+
+#main {
+    width: 100%;
+    padding: 0;
+}
+
+.content-asset p {
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.breadcrumb {
+    display: none;
+}
+
+
+/* HELPERS */
+
+.margin-top-10 {
+    padding-top: 10px;
+}
+
+.margin-bot-10 {
+    padding-bottom: 10px;
+}
+
+
+/* LETRA */
+
+#parallax-world-of-ugg h1 {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+#parallax-world-of-ugg h2 {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 70px;
+    letter-spacing: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    z-index: 10;
+    opacity: .9;
+}
+
+#parallax-world-of-ugg h3 {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 14px;
+    line-height: 0;
+    font-weight: 400;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+#parallax-world-of-ugg p {
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.first-character {
+    font-weight: 400;
+    float: left;
+    font-size: 84px;
+    line-height: 64px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.sc {
+    color: #00a98a;
+}
+
+.ny {
+    color: #3d3c3a;
+}
+
+.atw {
+    color: #c48660;
+}
+
+
+/* TITULO */
+
+#parallax-world-of-ugg .title {
+    background: white;
+    padding: 60px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+#parallax-world-of-ugg .title h1 {
+    font-size: 35px;
+    letter-spacing: 8px;
+    font-weight: bold;
+    color: #142c7c;
+}
+
+
+/* BLOCK */
+
+#parallax-world-of-ugg .block {
+    background: white;
+    padding: 60px;
+    width: 820px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#parallax-world-of-ugg .block-gray {
+    background: #f2f2f2;
+    padding: 60px;
+}
+
+#parallax-world-of-ugg .section-overlay-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.70;
+}
+
+
+/* SECCION - PARALLLAX */
+
+#parallax-world-of-ugg .parallax-one {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(./img/314046641_989246615347614_4627245165884520028_n.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+
+/* EXTRAS */
+
+#parallax-world-of-ugg .line-break {
+    border-bottom: 1px solid black;
+    width: 150px;
+    margin: 0 auto;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 959px) and (min-width: 768px) {
+    #parallax-world-of-ugg .block {
+        padding: 40px;
+        width: 620px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #parallax-world-of-ugg .block {
+        padding: 30px;
+        width: 420px;
+    }
+    #parallax-world-of-ugg h2 {
+        font-size: 30px;
+    }
+    #parallax-world-of-ugg .block {
+        padding: 30px;
+    }
+    #parallax-world-of-ugg .parallax-one,
+    #parallax-world-of-ugg .parallax-two,
+    #parallax-world-of-ugg .parallax-three {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    #parallax-world-of-ugg .block {
+        padding: 30px 15px;
+        width: 290px;
+    }
+}

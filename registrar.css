@@ -1,0 +1,252 @@
+/* FORMULARIO */
+
+.modal-conteiner {
+    font-family: 'Balsamiq Sans', cursive;
+    background-color: rgb(61, 61, 61);
+    align-items: center;
+    margin-top: 2em;
+    margin: 50px 0px 0px 250px;
+    width: 840px;
+    height: 665px;
+    border: 3px;
+    border-radius: 3px;
+    border-color: #333333;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    border: 1px solid var(--gris);
+    border-radius: .5rem;
+}
+
+.modal {
+    font-family: 'Balsamiq Sans', cursive;
+    /* background-color: rgb(218, 13, 13); */
+}
+
+.close {
+    background-color: rgb(13, 102, 218);
+}
+
+.form-register {
+    width: 850px;
+    height: 450px;
+}
+
+::placeholder {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.select {
+    padding-left: 2rem;
+    /* color: #fff; */
+    font-family: 'Balsamiq Sans', cursive;
+    /* padding: 1rem; */
+    border: 1px solid var(--gris);
+    border-radius: .5rem;
+    width: 94%;
+    height: 30px;
+    margin: 0.5rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #ffffff;
+}
+
+.modal-close {
+    background-color: #372e83;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 2em;
+    width: 840px;
+    height: 650px;
+    border: 3px;
+    border-radius: 3px;
+    border-color: #333333;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    border: 1px solid var(--gris);
+    border-radius: .5rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #000000;
+}
+
+
+/* IMAGEN */
+
+img {
+    border-radius: 100%;
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    padding-left: -2rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-position: center center;
+}
+
+
+/* CAJA DE TEXTO */
+
+.campo {
+    display: flex;
+    flex: 1;
+    flex: 0 0 9rem;
+    padding-left: -2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    border: 1px solid var(--gris);
+    border-radius: .5rem;
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+}
+
+.campo__label {
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+    color: #000000;
+    font-weight: 700;
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+}
+
+.campo__field {
+    padding-left: 2rem;
+    /* color: #fff; */
+    font-family: 'Balsamiq Sans', cursive;
+    flex: 2;
+    /* padding: 1rem; */
+    border: 1px solid var(--gris);
+    border-radius: .5rem;
+    width: 90%;
+    height: 35px;
+    margin: 0.5rem;
+}
+
+.campo__field--textarea {
+    height: 20rem;
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+}
+
+
+/* BOTONES */
+
+.regist {
+    font-family: 'Balsamiq Sans', cursive;
+    background: linear-gradient(#505050, #333333);
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    width: 94%;
+    height: 40px;
+    margin: 10px 0;
+    font-size: 15px;
+    border-radius: 2px;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    margin-left: 20%;
+    transform: translateX(-20%);
+    flex: 2;
+    padding-left: 2rem;
+    margin-bottom: 0;
+    justify-content: center;
+    border: 1px solid var(--gris);
+    border-radius: .5rem;
+}
+
+.regres {
+    font-family: 'Balsamiq Sans', cursive;
+    background: linear-gradient( #01b896, #00a98a);
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    width: 94%;
+    height: 40px;
+    margin: 10px 0;
+    font-size: 15px;
+    border-radius: 2px;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    margin-left: 20%;
+    transform: translateX(-20%);
+    padding-left: -2rem;
+    margin-bottom: 0;
+    justify-content: center;
+    border: 1px solid var(--gris);
+    border-radius: .5rem;
+}
+
+
+/* CSS FONDO ANIMADO */
+
+html {
+    height: 50%;
+}
+
+body {
+    margin: 0;
+}
+
+.bg {
+    animation: slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #372e83 50%, #fff 50%);
+    bottom: 0;
+    left: -50%;
+    opacity: .5;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    z-index: -1;
+}
+
+.bg2 {
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
+}
+
+.bg3 {
+    animation-duration: 5s;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: .25em;
+    box-shadow: 0 0 .25em rgba(0, 0, 0, .25);
+    box-sizing: border-box;
+    left: 50%;
+    padding: 10vmin;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-25%);
+    }
+    100% {
+        transform: translateX(25%);
+    }
+}
